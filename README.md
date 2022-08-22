@@ -10,7 +10,7 @@ Instructions for installing and applying themes can be found on [RStudio's websi
 
 ![Atom One Dark Pro](./img/atom.png)
 
-Slight adaptation of the original [gadenbuie/rsthemes](https://github.com/gadenbuie/rsthemes).
+Slight adaptation of the original [gadenbuie/rsthemes](https://github.com/gadenbuie/rsthemes), with a little bit of [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro).
 
 ## Synthwave 85
 
