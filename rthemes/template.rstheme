@@ -1,447 +1,325 @@
-/* credit https://github.com/gadenbuie/rsthemes */
-/* rs-theme-name: Atom One Dark Pro */
+/* rs-theme-name: theme_name */
 /* rs-theme-is-dark: TRUE */
 
-.ace_gutter {
-  background: #282c34;
-  color: #589fc9;
-}
-
-.ace_print-margin {
-  width: 2px;
-  background: #383d48;
-}
-
-.ace_editor {
-  background-color: #282c34;
-  color: #abb2bf;
-}
-
-.rstudio-themes-flat.ace_editor_theme {
-  background-color: #282c34;
-  color: #abb2bf;
-}
-
-.rstudio-themes-flat.ace_editor_theme .profvis-flamegraph {
-  background-color: #282c34;
-  color: #abb2bf;
-}
-
-.rstudio-themes-flat .ace_editor_theme {
-  background-color: #282c34;
-  color: #abb2bf;
-}
-
-.rstudio-themes-flat.editor_dark.ace_editor_theme a {
-  color: #FFF !important;
-}
-
-.rstudio-themes-flat .gwt-Label {
-  color: #abb2bf;
-}
-
-.ace_cursor {
-  color: #528bff;
-}
-
-.normal-mode .ace_cursor {
-  border: 0 !important;
-  background-color: #528bff;
-}
-
-.ace_marker-layer .ace_selection {
-  background: #16181d;
-}
-
-.ace_marker-layer .ace_step {
-  background: #b3d39c;
-}
-
-.ace_marker-layer .ace_bracket {
-  margin: -1px 0 0 -1px;
-  border: 1px solid rgba(82, 139, 255, 0.4);
-}
-
-.ace_marker-layer .ace_active-line {
-  background: rgba(92, 99, 112, 0.2);
-}
-
-.ace_marker-layer .ace_selected-word {
-  border: 1px solid #16181d;
-}
-
-.ace_marker-layer .ace_foreign_line {
-  position: absolute;
-  z-index: -1;
-  background-color: #24272e;
-}
-
-.ace_marker-layer .ace_active_debug_line {
-  position: absolute;
-  z-index: -1;
-  background-color: rgba(229, 192, 123, 0.4);
-}
-
-.ace_marker-layer .ace_find_line {
-  position: absolute;
-  z-index: -1;
-  background-color: #16181d;
-}
-
-.ace_gutter-active-line {
-  background-color: rgba(92, 99, 112, 0.2);
-}
-
-.ace_fold {
-  background-color: rgba(152, 195, 121, 0.5);
-  border: 1px solid #98c379 !important;
-}
-
-.ace_indent-guide {
-  display: inline-block;
-  height: 100%;
-  box-shadow: 1px 0 0 rgba(171, 178, 191, 0.35);
-}
-
-.ace_active-line ~ .ace_selection.ace_start {
-  background-color: rgba(22, 24, 29, 0.6);
-}
-
-.ace_keyword {
-  font-style: normal;
-  color: #c678dd;
-}
-
-.ace_keyword.ace_operator {
-  font-style: normal;
-  color: #61afef;
-}
-
-.ace_keyword.ace_other.ace_unit {
-  font-style: normal;
-  color: #abb2bf;
-}
-
-.ace_constant.ace_language {
-  color: #e06c75;
-}
-
-.ace_constant.ace_numeric {
-  color: #abb2bf;
-}
-
-.ace_constant.ace_character {
-  color: #abb2bf;
-}
-
-.ace_constant.ace_other {
-  color: #abb2bf;
-}
-
-.ace_support.ace_function {
-  color: #61afef;
-}
-
-.ace_support.ace_constant {
-  color: #abb2bf;
-}
-
-.ace_support.ace_class {
-  font-style: normal;
-  color: #c678dd;
-}
-
-.ace_support.ace_type {
-  color: #c678dd;
-}
-
-.ace_paren.ace_keyword.ace_operator {
-  color: #abb2bf;
-}
-
-.ace_storage {
-  color: #c678dd;
-}
-
-.ace_storage.ace_type {
-  color: #c678dd;
-}
-
-.ace_invalid {
-  background-color: rgba(224, 108, 117, 0.5);
-}
-
-.ace_invalid.ace_deprecated {
-  background-color: rgba(198, 120, 221, 0.5);
-}
-
-.ace_string {
-  color: #98c379;
-}
-
-.ace_comment {
-font-style: italic;
-  color: rgba(171, 178, 191, 0.5);
-}
-
-.ace_invisible {
-  color: rgba(171, 178, 191, 0.35);
-}
-
-.ace_variable {
-  color: #e06c75;
-}
-
-.ace_variable.ace_parameter {
-  color: #abb2bf;
-}
-
-.ace_identifier {
-  color: #abb2bf;
-  background-color: inherit;
-}
-
-.ace_entity.ace_name.ace_function {
-  color: #61afef;
-}
-
-.ace_entity.ace_name.ace_tag {
-  color: #e06c75;
-}
-
-.ace_entity.ace_other.ace_attribute-name {
-  color: #c678dd;
-}
-
-.ace_bracket {
-  margin: 0 !important;
-  border: 0 !important;
-  background-color: rgba(82, 139, 255, 0.4);
-}
-
-.ace_console_error {
-  background-color: #16181d;
-}
-
-.ace_layer {
-  z-index: 4;
-}
-
-.ace_layer.ace_print-margin-layer {
-  z-index: 2;
-}
-
-.ace_layer.ace_marker-layer {
-  z-index: 1;
-}
-
-.ace_layer.ace_cursor-layer {
-  z-index: 3;
-}
-
-.ace_selection.ace_start {
-  box-shadow: 0 0 3px 0 #282c34;
-  border-radius: 2px;
-}
-
+/* unsure */
 .ace_meta.ace_tag {
-  color: #61afef;
+  color: #;
 }
 
+/* md headings and stuff */
 .ace_markup.ace_heading,
 .ace_markup.ace_heading ~ .ace_heading {
   font-weight: 600;
-  color: #be5046;
+  color: #;
 }
 
+/* ms code block e.g {r, bits} */
 .ace_support.ace_function.ace_codebegin, .ace_support.ace_function.ace_codeend {
-  color: #56b6c2;
+  color: #;
 }
 
-.ace_markup.ace_href {
-  color: #e5c07b;
+/* md js block formating */
+.ace_storage.ace_type {
+  color: #;
 }
 
+/* md js block formating */
+.ace_variable {
+  color: #;
+}
+
+/* markdown code block background */
+.ace_marker-layer .ace_foreign_line {
+  position: absolute;
+  z-index: -1;
+  background-color: #;
+}
+
+/* code window sidebar background */
+.ace_gutter {
+  background: #; 
+  color: #;
+}
+
+/* line that indicates 80 pix limit in code window*/
+.ace_print-margin {
+  width: 2px;
+  background: #; 
+}
+
+/* code and console background, line num and non code text in console*/
+.ace_editor {
+  background-color: #; 
+  color: #abb2bf; /* code window */
+}
+
+/* env pane (and files, packages etc) background, env pane text and code line nums */
+.rstudio-themes-flat .ace_editor_theme {
+  background-color: #; 
+  color: #abb2bf; 
+}
+
+/* - removed
+.rstudio-themes-flat.editor_dark.ace_editor_theme a { /* unsure*/
+  color: #FFF !important;
+}
+*/
+
+/* source on save and code window surround text*/
+.rstudio-themes-flat .gwt-Label {
+  color: #; 
+}
+
+/* the cursor*/
+.ace_cursor {
+  color: #; 
+}
+
+/* highlight colour*/
+.ace_marker-layer .ace_selection {
+  background: #; 
+}
+
+/* if highlighted line turned on, the color*/
+.ace_marker-layer .ace_active-line {
+  background: #; 
+}
+
+/* when double clicking a word, the color of the box that appears around other matching words*/
+.ace_marker-layer .ace_selected-word {
+  border: 1px solid #; 
+}
+
+/* removed
+.ace_marker-layer .ace_active_debug_line { 
+  position: absolute;
+  z-index: -1;
+  background-color: #;
+}
+*/
+
+/* border & background of the little fold icon*/
+.ace_fold { 
+  background-color: #;
+  border: 1px solid # !important;
+}
+
+/* indent guidelines colors etc*/
+.ace_indent-guide { 
+  display: inline-block;
+  height: 100%;
+  box-shadow: 1px 0 0 #;
+}
+
+/* unusual - background highlighting when only highlighting one line*/
+.ace_active-line ~ .ace_selection.ace_start { 
+  background-color: #;
+}
+
+/* functions, console executed code, and roxygen tags*/
+.ace_keyword { 
+  font-style: normal;
+  color: #;
+}
+
+/* operators <- == %in% > etc */
+.ace_keyword.ace_operator {
+  font-style: normal;
+  color: #; 
+}
+
+/* constants TRUE NULL etc as well as warning/error msgs in console*/
+.ace_constant.ace_language {
+  color: #; 
+}
+
+/* numeric values*/
+.ace_constant.ace_numeric { 
+  color: #;
+}
+
+/* functions (like ace_keyword) but not console code or roxygen tags*/
+.ace_support.ace_function {
+  color: #
+}
+
+/* names spaces*/
+.ace_support.ace_class { 
+  font-style: normal;
+  color: #;
+}
+
+/* parenthesis et al*/
+.ace_paren.ace_keyword.ace_operator { 
+  color: #;
+}
+
+/* "strings"*/
+.ace_string { 
+  color: #;
+}
+
+/* comments*/
+.ace_comment { 
+font-style: italic;
+  color: #;
+}
+
+/* whitespace indicators*/
+.ace_invisible { 
+  color: #;
+}
+
+/* overrides all sorts including stinrgs functions if not set but otherwise seems to get object names or arg names*/
+.ace_identifier { 
+  color: #;
+  background-color: inherit;
+}
+
+/* highlight the matching paranthesis or whatever */
+.ace_bracket {
+  margin: 100 !important;
+  border: 100 !important;
+  background-color: #;
+}
+
+/* puts a border around selection not spanning more than 1 line */
+.ace_selection.ace_start {
+  box-shadow: 0 0 3px 0 #;
+  border-radius: 2px;
+}
+
+
+/* color of typed code in console */
 .nocolor.ace_editor .ace_line span {
   color: #c678dd !important;
 }
 
-#rstudio_console_input .ace_marker-layer .ace_selection {
-  background: #16181d;
-}
 
 /* ---- RStudio Theme ---- */
-/* background */
+
+/* curr working dir part of files pane */
+.rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader {
+  background: # !important;
+}
+
+/* file pane col headers */
+.rstudio-themes-dark .dataGridHeader,
+.rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th),
+.rstudio-themes-dark .dataTables_info {
+  background-color: # !important;
+  border-color: # !important;
+}
+
+/* background, the borders arround the panes basically*/
 .rstudio-themes-flat .rstudio-themes-dark-grey {
-  background: #21252b !important;
-  color: #abb2bf !important;
+  background: # !important;
+  color: # !important;
   /* collapsed toolbar on rstudio server */
 }
 
+
+/* the background to the search, file edit code bar env pane headers  */
 .rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-background {
-  background: #21252b !important;
+  background: # !important;
 }
 
+/* little highlights either end of top toolbar */
 .rstudio-themes-flat .rstudio-themes-dark-grey [role="banner"] + [role="navigation"] > table > tbody > tr > td,
 .rstudio-themes-flat .rstudio-themes-dark-grey header + [role="navigation"] > table > tbody > tr > td {
-  background: #21252b;
-  border-color: #282c34;
+  background: #;
+  border-color: #;
 }
 
-.rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border {
-  border-color: #282c34;
-}
 
-/* inactive tabs */
+/* inactive tabs and the rest of the tab bar*/
 table.rstheme_tabLayoutCenter,
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs,
 .rstheme_multiPodUtilityTabArea {
-  background: #21252b !important;
+  background: # !important;
 }
 
+/* inactive tab text colour */
 table.rstheme_tabLayoutCenter .gwt-Label,
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-Label,
 .rstheme_multiPodUtilityTabArea .gwt-Label {
-  color: rgba(171, 178, 191, 0.5);
+  color: #;
 }
 
-/* toolbar and selected tab */
+/* search boxes, selected tab, and bit oddly inactive pane (minimised) */
 .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_center,
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter {
-  background: #282c34 !important;
+  background: # !important;
 }
 
+/* active tab color */
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTab-selected .gwt-Label {
-  color: #abb2bf;
+  color: #;
 }
 
+/* highlight inactive tab on hover */
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTab:hover .rstheme_tabLayoutCenter {
-  background: #21252b !important;
+  background: # !important;
 }
 
+/* save icon toolbars including each panes version */
 .rstudio-themes-flat .rstheme_toolbarWrapper {
-  background: #282c34 !important;
+  background: # !important;
 }
 
+/* save icon toolbars TEXT including each panes version */
 .rstudio-themes-flat .rstheme_toolbarWrapper button, .rstudio-themes-flat .rstheme_toolbarWrapper a, .rstudio-themes-flat .rstheme_toolbarWrapper div {
   color: #abb2bf !important;
 }
 
+/* pane splitters only (not full surround) can set as transparent*/
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-SplitLayoutPanel-HDragger, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-SplitLayoutPanel-VDragger {
   /* spliters */
   background: transparent !important;
 }
 
+/* small highlights each end of search boxes*/
 .rstudio-themes-flat .rstudio-themes-dark .search, .rstudio-themes-flat.rstudio-themes-dark-menus .search {
   /* search */
-  background: #282c34 !important;
+  background: # !important;
 }
 
-.rstudio-themes-flat #rstudio_workbench_panel_find_in_files td[colspan="2"] {
-  /* file name in Find in Files */
-  color: #e06c75;
-}
-
-/* pane toolbars */
-.rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader {
-  background: #282c34 !important;
-}
-
-/* menu background */
+/* main menu background and or text or small menu border?*/
 .rstudio-themes-flat .popupMiddleCenter,
 .rstudio-themes-flat .menuPopupMiddleCenter,
 .rstudio-themes-flat .suggestPopupMiddleCenter {
-  background: #282c34 !important;
-  color: #abb2bf !important;
+  background: # !important;
+  color: # !important;
 }
 
-.rstudio-themes-flat .popupMiddleCenter .item.item-selected,
-.rstudio-themes-flat .menuPopupMiddleCenter .item.item-selected,
-.rstudio-themes-flat .suggestPopupMiddleCenter .item.item-selected {
-  color: #abb2bf !important;
-  background: rgba(22, 24, 29, 0.6) !important;
-}
 
+/* non main toolbar context menu borders*/
 .rstudio-themes-flat .themedPopupPanel {
-  border: solid 1px rgba(82, 139, 255, 0.4);
+  border: solid 1px #;
 }
 
-.rstudio-themes-flat .themedPopupPanel ~ div.popupContent div:nth-child(1) {
-  border: solid 1px rgba(82, 139, 255, 0.4);
-}
 
+/* non main toolbar context menu colors*/
 .rstudio-themes-flat .popupContent {
-  background: #282c34;
+  background: #;
   color: #abb2bf;
-  border-color: rgba(82, 139, 255, 0.4);
+  border-color: #;
 }
 
-.rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
-  background-color: unset;
-  border: none;
-}
 
-.rstudio-themes-flat .popupContent + .rstudio-themes-scrollbars {
-  border-color: rgba(82, 139, 255, 0.4);
-}
-
-.rstudio-themes-flat .gwt-PopupPanel .popupContent {
-  background: #282c34;
-  padding: 2px;
-}
-
-.rstudio-themes-flat .gwt-PopupPanel .popupContent table {
-  background: #abb2bf;
-  border: 0;
-}
-
-.rstudio-themes-flat .gwt-PopupPanel .popupContent table .gwt-Label {
-  color: #282c34;
-}
-
-.rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected, .rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected > table {
-  background: rgba(22, 24, 29, 0.6);
-  color: #abb2bf;
-}
-
-/* datagrid */
-.rstudio-themes-dark .dataGridHeader,
-.rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th),
-.rstudio-themes-dark .dataTables_info {
-  background-color: #282c34 !important;
-  border-color: #21252b !important;
-}
-
-/* hacky toolbars section */
-.rstudio-themes-flat .rstudio-themes-dark-grey {
-  /* this next one might not be needed anymore (at least after 1.4+) */
-}
-
-.rstudio-themes-flat .rstudio-themes-dark-grey .windowframe > div:last-child > div > div > div > div > div:not(.gwt-TabLayoutPanelTabs) {
-  background: #21252b !important;
-}
-
-.rstudio-themes-flat .rstudio-themes-dark-grey .windowframe > div:last-child > div > div > div:nth-child(3) > div {
-  background: #21252b !important;
-}
-
-/* Data Frame Preview */
+/* View col names backgorund and text */
 .dataTables_wrapper thead th {
-  background-color: #1d2026 !important;
+  background-color: # !important;
   color: #abb2bf !important;
 }
 
+/* View row names backgorund and text */
 .dataTables_scrollBody table tbody td:first-child {
-  background: #1d2026 !important;
-  color: #abb2bf !important;
+  background: # !important;
+  color: # !important;
 }
 
-.dataTables_info {
-  background: #1d2026 !important;
-  color: #abb2bf !important;
-}
-
-/* scrollbars */
+/* scrollba background*/
 /* reset scrollbar background color */
 .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar,
 .rstudio-themes-flat .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar, .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar {
@@ -452,183 +330,126 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   overflow: visible;
 }
 
-.rstudio-themes-flat, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars {
-  /* Works on Firefox */
-  scrollbar-width: auto;
-  scrollbar-color: #5f6574 rgba(40, 44, 52, 0.5);
-  /* Works on Chrome, Edge, and Safari */
-}
-
 .rstudio-themes-flat ::-webkit-scrollbar, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar {
   width: auto;
 }
 
+/* scrollbar background */
 .rstudio-themes-flat *::-webkit-scrollbar-track, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars *::-webkit-scrollbar-track {
-  background: rgba(40, 44, 52, 0.5);
+  background: #;
 }
 
+/* scroll bars color */
 .rstudio-themes-flat *::-webkit-scrollbar-thumb, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars *::-webkit-scrollbar-thumb {
-  background-color: #24272e;
+  background-color: #;
   border-radius: 0px;
-  border: 2px solid #282c34;
+  border: 2px solid #;
 }
 
+/* scrollbar color on hover */
 .rstudio-themes-flat *::-webkit-scrollbar-thumb:hover, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars *::-webkit-scrollbar-thumb:hover {
-  background-color: #2f333d;
+  background-color: #;
 }
 
-/* fix overly zealous css rules */
+/* fix overly zealous css rules - some text esp headers in pop ups */
 .gwt-DialogBox-ModalDialog .dialogContent .gwt-Label {
   color: #333333;
 }
 
 /* job progress bar */
 .rstheme_toolbarWrapper [role="progressbar"] > div, .windowframe [role="progressbar"] > div {
-  background-color: #16181d;
+  background-color: #;
 }
 
 /* borders on toolbar under editor */
 .rstudio-themes-flat .rstudio-themes-dark table.rstudio-themes-background td > div:first-child {
-  border-color: #21252b !important;
+  border-color: # !important;
 }
 
-/* Borrowed from https://github.com/anthonynorth/rscodeio */
-/* splitters */
-.rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel-HDragger {
-  border-color: #21252b;
-}
 
-.rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel-VDragger {
-  border-color: #21252b;
-}
 
+/* cell borders in env and package panes etc */
 .rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel td {
-  border-color: #282c34 !important;
+  border-color: # !important;
 }
 
-/* window containers */
+/* window containers - UNSURE */
 .rstudio-themes-flat
 > .rstudio-themes-dark
 :-webkit-any(.windowframe, .rstheme_minimizedWindowObject)
 > div:last-child {
   border-radius: 0;
-  border-color: #282c34;
+  border-color: #;
 }
 
-/* main toolbar */
-.rstudio-themes-dark > div:last-child > div > div > .rstheme_toolbarWrapper,
-.rstudio-themes-dark [role="application"] > div > .rstheme_toolbarWrapper {
-  border-color: #21252b;
-}
 
+/* pane title underline kind of */
 /* toolbars */
 .rstudio-themes-dark .rstheme_toolbarWrapper,
 .rstudio-themes-dark .rstheme_secondaryToolbar {
-  border-color: #21252b !important;
+  border-color: # !important;
   border-radius: 0 !important;
 }
 
-/* other toolbars */
+/* main top toolbar top and bottom */
 .rstudio-themes-dark .rstudio-themes-background {
-  border-top-color: #21252b !important;
-  border-bottom-color: #21252b !important;
+  border-top-color: # !important;
+  border-bottom-color: # !important;
   border-radius: 0 !important;
 }
 
-/* tabs container */
+/* tabs container - linked to minimize panes but seems inconsistent */
 .rstudio-themes-dark .gwt-TabLayoutPanelTabs,
 .rstudio-themes-dark .windowframe,
 .rstudio-themes-dark :-webkit-any(.rstheme_multiPodUtilityTabArea, .GD15MCFCCS, .GJQ3LUQCCS) {
-  background: #21252b !important;
-  border-color: #21252b !important;
+  background: # !important;
+  border-color: # !important;
 }
 
-/* tabs */
+/* pane tabs divider */
 .rstudio-themes-dark .gwt-TabLayoutPanelTab:not(.gwt-TabLayoutPanelTab-selected) .rstheme_tabLayoutCenter,
 .rstudio-themes-dark .rstheme_minimizedWindowObject .rstheme_center {
-  border-color: #21252b !important;
-  border-right: 1px solid #21252b !important;
+  border-color: # !important;
+  border-right: 1px solid # !important;
   border-radius: 0;
 }
 
-/* active tab */
+/* active tab - UNSURE*/
 .rstudio-themes-dark .gwt-TabLayoutPanelTab.gwt-TabLayoutPanelTab-selected .rstheme_tabLayoutCenter {
   border: none;
 }
 
-#rstudio_command_palette_search,
-#rstudio_command_palette_list [id^="rstudio_command_"],
-input#rstudio_command_palette_search {
-  background-color: #282c34;
-  border: none;
-}
 
-#rstudio_command_palette_list {
-  background-color: #282c34;
-  border-color: #282c34;
-}
-
-.rstudio-themes-flat .rstudio-themes-border {
-  border-color: #282c34;
-}
-
-.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"] table .gwt-Label,
-.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"] table td {
-  background-color: #282c34;
-  color: #abb2bf;
-}
-
-.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover, .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover [id^="rstudio_command_entry"], .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover table .gwt-Label, .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover table td {
-  background-color: #333842;
-}
-
-.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"], .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"] [id^="rstudio_command_entry"], .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"] table .gwt-Label, .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"] table td {
-  background-color: #3e4451;
-}
-
-input#rstudio_command_palette_search {
-  padding: 10px 0;
-  width: 580px;
-  border: none;
-}
-
-.js-focus-visible input#rstudio_command_palette_search {
-  outline-offset: 5px !important;
-}
-
-.rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label, .rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label span {
-  border: none;
-}
-
-/* Rainbow Parenthesis */
+/* Rainbow Parenthesis colors wooooo */
 .rstudio-themes-dark .ace_paren_color_0 {
-  color: #abb2bf;
+  color: #;
 }
 
 .rstudio-themes-dark .ace_paren_color_1 {
-  color: #98c379;
+  color: #;
 }
 
 .rstudio-themes-dark .ace_paren_color_2 {
-  color: #d19a66;
+  color: #;
 }
 
 .rstudio-themes-dark .ace_paren_color_3 {
-  color: #e06c75;
+  color: #;
 }
 
 .rstudio-themes-dark .ace_paren_color_4 {
-  color: #56b6c2;
+  color: #;
 }
 
 .rstudio-themes-dark .ace_paren_color_5 {
-  color: #c678dd;
+  color: #;
 }
 
 .rstudio-themes-dark .ace_paren_color_6 {
-  color: #61afef;
+  color: #;
 }
 
+/* terminal settings */
 .terminal {
   background-color: #282c34;
   color: #abb2bf;
@@ -2758,3 +2579,43 @@ input#rstudio_command_palette_search {
   border-radius: 0;
   border: none !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
