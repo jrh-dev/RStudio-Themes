@@ -11,3 +11,9 @@ Instructions for installing and applying themes can be found on [RStudio's websi
 ![Atom One Dark Pro](./img/onedark.png)
 
 Inspired by the incredible One Dark Pro VS Code theme by [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro).
+
+## MineR
+
+![MineR](./img/miner.png)
+
+A theme taking inspiration from the timeless classic video game Minecraft.
