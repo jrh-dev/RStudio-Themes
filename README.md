@@ -7,7 +7,6 @@ Let's be honest, RStudio isn't the prettiest IDE out there. But since RStudio v1
 Instructions for installing and applying themes can be found on [RStudio's website](https://www.rstudio.com/blog/rstudio-ide-custom-theme-support/).
 
 ## Atom One Dark Pro :atom: :rocket:
----
 
 ![Atom One Dark Pro](./img/onedark.png)
 
@@ -18,10 +17,8 @@ R syntax highlighting | RMarkdown syntax highlighting | Python syntax highlighti
 :--------------------:|:-----------------------------:|:-------------------------:
 ![Atom One Dark Pro R syntax highlighting](./img/onedark_text.png) | ![Atom One Dark Pro RMarkdown syntax highlighting](./img/onedark_md.png) | ![Atom One Dark Pro Python syntax highlighting](./img/onedark_py.png)
 
----
 
 ## MineR :pick: :crossed_swords:
----
 
 ![MineR](./img/miner.png)
 
@@ -32,4 +29,3 @@ R syntax highlighting | RMarkdown syntax highlighting | Python syntax highlighti
 :--------------------:|:-----------------------------:|:-------------------------:
 ![MineR R syntax highlighting](./img/miner_text.png) | ![MineR RMarkdown syntax highlighting](./img/miner_md.png) | ![MineR Python syntax highlighting](./img/miner_py.png)
 
----
